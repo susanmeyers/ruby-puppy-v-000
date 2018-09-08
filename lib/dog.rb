@@ -16,6 +16,7 @@ class Dog
 
   def self.all
     puts "Pluto"
+    binding.pry
   end
 end
 
