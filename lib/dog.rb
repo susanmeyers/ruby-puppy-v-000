@@ -12,7 +12,12 @@ class Dog
   end
 
   def self.all
+    something
   end
+
+  def something 
+    binding.pry
+  end 
 
   def self.clear_all
     @@all.clear
