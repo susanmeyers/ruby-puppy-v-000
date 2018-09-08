@@ -8,15 +8,6 @@ class Dog
   def initialize(dog)
     @dog = dog
     @@all << self
-    @name = name
-  end
-
-  def self.all
-    self.something
-  end
-
-  def self.something
-    binding.pry
   end
 
   def self.clear_all
