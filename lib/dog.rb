@@ -6,6 +6,7 @@ class Dog
   attr_accessor :dog, :name
 
   def initialize(dog)
+    binding.pry
     @dog = dog
     @@all << self
     @name = name
