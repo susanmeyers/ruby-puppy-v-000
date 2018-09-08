@@ -1,4 +1,3 @@
-require 'pry'
 class Dog
   @@all = []
 
@@ -16,7 +15,6 @@ class Dog
   def self.all
     @@all
     @@all.each do |dog|
-  binding.pry
       puts dog.name
       dog.name
     end
