@@ -3,11 +3,11 @@ require 'pry'
 class Dog
   @@all = []
 
-  attr_accessor :dog, :name
+  attr_accessor :name
 
-  def initialize(dog)
-    @dog = dog
+  def initialize(name)
     @@all << self
+    @name = name
   end
 
   def self.clear_all
