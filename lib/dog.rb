@@ -12,7 +12,7 @@ class Dog
   end
 
   def self.all
-    selfsomething
+    self.something
   end
 
   def self.something
