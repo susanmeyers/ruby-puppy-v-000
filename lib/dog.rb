@@ -14,10 +14,10 @@ class Dog
 
 
   def self.all
-    @@all.each do |dogs|
-      puts dogs.name
+    @@all.each do |dog|
+      puts dog.name
     end
-      dogs.name
+      dog.name
   end
 
     #def name(dog)
