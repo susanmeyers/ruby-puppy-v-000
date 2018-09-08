@@ -11,6 +11,9 @@ class Dog
     @name = name
   end
 
+  def self.all
+  end
+
   def self.clear_all
     binding.pry
     @@all.clear
