@@ -12,10 +12,10 @@ class Dog
   end
 
   def self.all
-    something
+    selfsomething
   end
 
-  def something
+  def self.something
     binding.pry
   end
 
