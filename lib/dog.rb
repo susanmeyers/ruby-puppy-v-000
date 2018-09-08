@@ -15,9 +15,9 @@ class Dog
     something
   end
 
-  def something 
+  def something
     binding.pry
-  end 
+  end
 
   def self.clear_all
     @@all.clear
