@@ -17,11 +17,12 @@ class Dog
     @@all
     @@all.each do |dog|
       puts dog
+  binding.pry
       dog.name
     end
-  end
+   end
 
-    #def name(dog)
+
 
 
 
