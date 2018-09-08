@@ -14,7 +14,8 @@ class Dog
     @@all.clear
   end
 
-  def self.all 
+  def self.all
+    puts "Pluto"
   end
 end
 
