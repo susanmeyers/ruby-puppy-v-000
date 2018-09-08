@@ -13,8 +13,9 @@ class Dog
 
 
   def self.all
+    require 'pry'
     binding.pry
-    
+
    end
 
 
